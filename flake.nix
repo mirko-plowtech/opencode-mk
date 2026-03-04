@@ -16,7 +16,6 @@
         modules = [
           (import "${ocnix}/examples/chief-coding-assistant")
           {
-          opencode.model = "anthropic/claude-sonnet-4-5";
           opencode.agent.reviewer = {
             model = "anthropic/claude-opus-4-5";
             instructions = ''
