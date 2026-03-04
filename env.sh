@@ -1,0 +1,12 @@
+# Execute: source env.sh
+export OPENCODE_MODEL_BIG="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_SMALL="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_EXPLORE="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_EXPLORE_BIG="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_GENERAL="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_IMPLEMENTER_BIG="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_IMPLEMENTER_SMALL="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_REVIEW1="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_REVIEW2="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_REVIEW3="github-copilot/claude-sonnet-4.5"
+export OPENCODE_MODEL_WEB="github-copilot/claude-sonnet-4.5"
