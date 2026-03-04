@@ -16,6 +16,7 @@ Run executable:
 nix run github:mirko-plowtech/opencode-mk
 
 # Or make it temporally available in your shell:
+source /home/ogt/repositories/opencode-mk/env.sh
 export PATH="$PATH:/home/ogt/repositories/opencode-mk/result/bin"
 
 # And then run it:
