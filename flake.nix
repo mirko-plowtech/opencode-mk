@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    ocnix.url = "github:your-org/ocnix";
+    ocnix.url = "github:albertov/opencode-nix";
     opencode.url = "github:anomalyco/opencode";
   };
 
@@ -13,7 +13,9 @@
       packages.${system}.default = pkgs.lib.opencode.wrapOpenCode {
         name = "my-opencode";
         opencode = opencode.packages.${system}.default;
-        modules = [{
+        modules = [
+          (import "${ocnix}/examples/chief-coding-assistant")
+          {
           opencode.model = "anthropic/claude-sonnet-4-5";
           opencode.agents.reviewer = {
             model = "anthropic/claude-opus-4-5";
