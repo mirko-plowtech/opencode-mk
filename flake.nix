@@ -15,17 +15,7 @@
         opencode = opencode.packages.${system}.default;
         modules = [
           (import "${ocnix}/examples/chief-coding-assistant")
-          {
-          opencode.agent.reviewer = {
-            model = "anthropic/claude-opus-4-5";
-            instructions = ''
-              You are a code reviewer. Focus on correctness, security, and maintainability.
-            '';
-          };
-          opencode.mcp.servers.github = {
-            command = "''${pkgs.mcp-github}/bin/mcp-github";
-          };
-        }];
+        ];
       };
     };
 }
