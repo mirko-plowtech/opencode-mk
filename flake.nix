@@ -17,7 +17,7 @@
           (import "${ocnix}/examples/chief-coding-assistant")
           {
           opencode.model = "anthropic/claude-sonnet-4-5";
-          opencode.agents.reviewer = {
+          opencode.agent.reviewer = {
             model = "anthropic/claude-opus-4-5";
             instructions = ''
               You are a code reviewer. Focus on correctness, security, and maintainability.
