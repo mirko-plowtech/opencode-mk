@@ -1,7 +1,8 @@
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    ocnix.url = "github:albertov/opencode-nix";
+    # Update with: nix flake lock --update-input ocnix
+    ocnix.url = "github:mirko-plowtech/opencode-nix";
     opencode.url = "github:anomalyco/opencode";
   };
 

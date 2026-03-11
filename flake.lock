@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1772585379,
-        "narHash": "sha256-zomLtA51H/qXAcjczveQFXPi/GuJUkPdpDeyu5bGI4M=",
+        "lastModified": 1773110118,
+        "narHash": "sha256-mPAG8phMbCReKSiKAijjjd3v7uVcJOQ75gSjGJjt/Rk=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "0fd2db475afdde93c9e4b1625aafb8eb41b99807",
+        "rev": "e607cb5360ff1234862ac9f8839522becb853bb9",
         "type": "github"
       },
       "original": {
@@ -53,18 +53,19 @@
         "nixpkgs": "nixpkgs_2",
         "opencode": "opencode",
         "systems": "systems",
+        "tilth": "tilth",
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1771719369,
-        "narHash": "sha256-IVcbOErLwI4vQ3berLgQNhAOVax+KKRhuOj50QY2k3E=",
-        "owner": "albertov",
+        "lastModified": 1773259191,
+        "narHash": "sha256-HCJgR8f8Q1FIB+zvEn//kd0aBVW9GhkM9GRS5FgxREY=",
+        "owner": "mirko-plowtech",
         "repo": "opencode-nix",
-        "rev": "57517849bb2cfdff854bfbb2b61cb9694ef906f8",
+        "rev": "d9c82aae895fea627297aa70bd034bcd9ed04751",
         "type": "github"
       },
       "original": {
-        "owner": "albertov",
+        "owner": "mirko-plowtech",
         "repo": "opencode-nix",
         "type": "github"
       }
@@ -95,11 +96,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1772633427,
-        "narHash": "sha256-OHIs48hg6b1XMH93Eg3wFcWQKE3xoRMF9W+NCLnvv7g=",
+        "lastModified": 1773258154,
+        "narHash": "sha256-Cxq4h+p8S4ZsOJ8+U8XMafI8LMinc0L83rtFLp5DcvQ=",
         "owner": "anomalyco",
         "repo": "opencode",
-        "rev": "18cad10647996fc86c867bf6cd3efeb1999b1f63",
+        "rev": "c37f7b9d997fcbbf4f331e1965425375e7606ab6",
         "type": "github"
       },
       "original": {
@@ -127,6 +128,27 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "tilth": {
+      "inputs": {
+        "nixpkgs": [
+          "ocnix",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1773234780,
+        "narHash": "sha256-MR9u3+FROzZgyuPS1OK+jzxAfpodzxD6qJ6CFUw/JuQ=",
+        "owner": "jahala",
+        "repo": "tilth",
+        "rev": "31a3e982536dcdd4055ecb0285be8d89473fd74f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "jahala",
+        "repo": "tilth",
         "type": "github"
       }
     },
