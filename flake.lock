@@ -57,11 +57,11 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1773259191,
-        "narHash": "sha256-HCJgR8f8Q1FIB+zvEn//kd0aBVW9GhkM9GRS5FgxREY=",
+        "lastModified": 1773343782,
+        "narHash": "sha256-+yxUPFs4ELw/5WWx8Lfme3iCvbKe1eh0FY7n+08ONSg=",
         "owner": "mirko-plowtech",
         "repo": "opencode-nix",
-        "rev": "d9c82aae895fea627297aa70bd034bcd9ed04751",
+        "rev": "aeb5e70342d82f0ddafbe583b44a6be6afd8f740",
         "type": "github"
       },
       "original": {
